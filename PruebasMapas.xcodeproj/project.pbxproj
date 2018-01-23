@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09C99C452017C38500B7625A /* cthulhu.png in Resources */ = {isa = PBXBuildFile; fileRef = 09C99C442017C38500B7625A /* cthulhu.png */; };
 		09D19A48201788A30015AED4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D19A47201788A30015AED4 /* AppDelegate.m */; };
 		09D19A4B201788A30015AED4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D19A4A201788A30015AED4 /* ViewController.m */; };
 		09D19A4E201788A30015AED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D19A4C201788A30015AED4 /* Main.storyboard */; };
 		09D19A50201788A30015AED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D19A4F201788A30015AED4 /* Assets.xcassets */; };
 		09D19A53201788A30015AED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D19A51201788A30015AED4 /* LaunchScreen.storyboard */; };
 		09D19A56201788A30015AED4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D19A55201788A30015AED4 /* main.m */; };
+		09D19A5E201789A80015AED4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D19A5D201789A80015AED4 /* MapKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		09D19A6120178E410015AED4 /* PuntoInteres.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D19A6020178E410015AED4 /* PuntoInteres.m */; };
+		09D19A632017A7050015AED4 /* poo.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D19A622017A7050015AED4 /* poo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09C99C442017C38500B7625A /* cthulhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cthulhu.png; path = Assets.xcassets/cthulhu.png; sourceTree = "<group>"; };
 		09D19A43201788A30015AED4 /* PruebasMapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebasMapas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D19A46201788A30015AED4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		09D19A47201788A30015AED4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +31,10 @@
 		09D19A52201788A30015AED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09D19A54201788A30015AED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09D19A55201788A30015AED4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09D19A5D201789A80015AED4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		09D19A5F20178E410015AED4 /* PuntoInteres.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PuntoInteres.h; sourceTree = "<group>"; };
+		09D19A6020178E410015AED4 /* PuntoInteres.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuntoInteres.m; sourceTree = "<group>"; };
+		09D19A622017A7050015AED4 /* poo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poo.png; path = Assets.xcassets/poo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D19A5E201789A80015AED4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +54,7 @@
 			children = (
 				09D19A45201788A30015AED4 /* PruebasMapas */,
 				09D19A44201788A30015AED4 /* Products */,
+				09D19A5C201789A80015AED4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,11 +75,23 @@
 				09D19A4A201788A30015AED4 /* ViewController.m */,
 				09D19A4C201788A30015AED4 /* Main.storyboard */,
 				09D19A4F201788A30015AED4 /* Assets.xcassets */,
+				09C99C442017C38500B7625A /* cthulhu.png */,
+				09D19A622017A7050015AED4 /* poo.png */,
 				09D19A51201788A30015AED4 /* LaunchScreen.storyboard */,
 				09D19A54201788A30015AED4 /* Info.plist */,
 				09D19A55201788A30015AED4 /* main.m */,
+				09D19A5F20178E410015AED4 /* PuntoInteres.h */,
+				09D19A6020178E410015AED4 /* PuntoInteres.m */,
 			);
 			path = PruebasMapas;
+			sourceTree = "<group>";
+		};
+		09D19A5C201789A80015AED4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09D19A5D201789A80015AED4 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +126,11 @@
 					09D19A42201788A30015AED4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -129,6 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C99C452017C38500B7625A /* cthulhu.png in Resources */,
+				09D19A632017A7050015AED4 /* poo.png in Resources */,
 				09D19A53201788A30015AED4 /* LaunchScreen.storyboard in Resources */,
 				09D19A50201788A30015AED4 /* Assets.xcassets in Resources */,
 				09D19A4E201788A30015AED4 /* Main.storyboard in Resources */,
@@ -143,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D19A4B201788A30015AED4 /* ViewController.m in Sources */,
+				09D19A6120178E410015AED4 /* PuntoInteres.m in Sources */,
 				09D19A56201788A30015AED4 /* main.m in Sources */,
 				09D19A48201788A30015AED4 /* AppDelegate.m in Sources */,
 			);
@@ -279,7 +310,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89KA7SPT62;
 				INFOPLIST_FILE = PruebasMapas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TATINC.PruebasMapas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,7 +325,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89KA7SPT62;
 				INFOPLIST_FILE = PruebasMapas/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TATINC.PruebasMapas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
